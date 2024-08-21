@@ -110,6 +110,7 @@ class LLMSettings(BaseModel):
         "llamacpp",
         "openai",
         "openailike",
+        "mistral",
         "azopenai",
         "sagemaker",
         "mock",
