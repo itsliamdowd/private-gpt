@@ -32,6 +32,7 @@ llama-index-embeddings-azure-openai = {version ="^0.1.10", optional = true}
 llama-index-embeddings-gemini = {version ="^0.1.8", optional = true}
 llama-index-vector-stores-qdrant = {version ="^0.2.10", optional = true}
 llama-index-vector-stores-milvus = {version ="^0.1.20", optional = true}
+llama-index-embeddings-mistralai = {version ="^0.1.6", optional = true}
 llama-index-vector-stores-chroma = {version ="^0.1.10", optional = true}
 llama-index-vector-stores-postgres = {version ="^0.1.11", optional = true}
 llama-index-vector-stores-clickhouse = {version ="^0.1.3", optional = true}
@@ -79,6 +80,7 @@ llms-gemini = ["llama-index-llms-gemini", "google-generativeai"]
 embeddings-ollama = ["llama-index-embeddings-ollama", "ollama"]
 embeddings-huggingface = ["llama-index-embeddings-huggingface", "einops"]
 embeddings-openai = ["llama-index-embeddings-openai"]
+embeddings-mistral = ["llama-index-embeddings-mistralai"]
 embeddings-sagemaker = ["boto3"]
 embeddings-azopenai = ["llama-index-embeddings-azure-openai"]
 embeddings-gemini = ["llama-index-embeddings-gemini"]
