@@ -575,6 +575,12 @@ class MilvusSettings(BaseModel):
         True, description="Overwrite the previous collection schema if it exists."
     )
 
+class MistralSettings(BaseModel):
+    api_key: str
+    endpoint: str
+    model: str
+    embedding_model: str
+    request_timeout: int
 
 class Settings(BaseModel):
     server: ServerSettings
